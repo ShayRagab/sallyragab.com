@@ -1,0 +1,26 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway';
+}
+
+/* HEADER */
+header {
+  color: #fff;
+}
+header .seenfirst{
+  height: 39.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A192D;
+}
+header .desc {
+    margin: 0;
+}
