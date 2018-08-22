@@ -1,26 +1,40 @@
 /* GENERAL */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 * {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: 'Raleway';
+  text-align: center;
+  font-size: 12pt;
 }
 
-/* HEADER */
+/* ==============
+    HEADER
+===============*/
 header {
   color: #fff;
+  background-color: #1A192D;
+  height: 43em;
 }
 header .seenfirst{
-  height: 39.5em;
-  text-align: center;
+  height: 31em;
+  line-height: 36pt;
+  font-size: 16pt;
+  /* font-weight: 200; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1A192D;
 }
 header .desc {
     margin: 0;
+}
+header .seenfirst .desc h1 span {
+  color: #E31B6D;
+}
+/* Main Menu */
+header nav ul {
+  display: flex;
 }
