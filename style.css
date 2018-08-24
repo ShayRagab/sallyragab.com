@@ -1,5 +1,25 @@
-/* GENERAL */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+/* Mobile Verion */
+@media screen and (max-width: 500px;)  {
+  body{
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 5pt;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
