@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+/* ==============
+    Mobile Verion
+============== */
+@media screen and (max-width: 500px) {
+  /* ==============
+      GENERAL
+  ============== */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 10pt;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  div.title h2 {
+    color: #444649;
+    font-size: 25pt;
+    margin-top: 45px;
+  }
+  div.title hr {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    width: 70px;
+    height: 4px;
+    background-color: #444649;
+  }
+
+  /* ==============
+      HEADER
+  ===============*/
+
+  header {
+    color: #fff;
+    background-color: #1A192D;
+    height: 23em;
+    margin-bottom: 5%;
+  }
+  header .seenfirst{
+    height: 19.55em;
+    line-height: 27pt;
+    font-size: 10pt;
+    /* font-weight: 200; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header .desc {
+      margin: 0;
+  }
+  header .seenfirst .desc h1 span {
+    color: #E31B6D;
+  }
+  /* View my work button */
+  header div.seenfirst div.header-button {
+    margin-top: 15px;
+  }
+  header div.seenfirst a.btn {
+    font-size: 12pt;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 15px;
+    margin-top: 10px;
+  }
+  /* Main Menu */
+  header nav {
+    width: 100%;
+    background-color: #1B242F;
+    padding: 15px 0;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header nav ul li {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  /* li HOVER */
+  header nav ul li:hover {
+    color: #E31B6D;
+  }
+  header nav ul li.active {
+    color: #E31B6D;
+  }
+
+  /* ==============
+      ABOUT
+  ===============*/
+
+  div#about  {
+    margin: 0 15px;
+  }
+  div#about div.skills1 {
+    display: flex;
+  }
+  div#about div.skills1 div.firsttwo, div.secondtwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  div#about div.skills1 div.about-child {
+    width: 100%;
+    height: 150px;
+    border: 3px solid red;
+  }
+  /* div#about div.skills1 div.about-child div.icon {
+    position: absolute;
+    margin: auto;
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    /* transform: rotate(45deg);
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  } */
+  div#about div.skills1 div.about-child div.icon i {
+    font-size: 40px;
+    color: #fff;
+    background-color: blue;
+    position: absolute;
+    margin: auto;
+  }
+  div#about div.skills1 div.about-child div.icon i:before {
+    content: "";
+    background-color: red;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    border-radius: 0;
+    transform: rotate(45deg);
+    top: 0px;
+    left: 0px;
+  }
+  div#about div.skills1 div.about-child div.icon i:after {
+    content: "";
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    border-radius: 0;
+    transform: rotate(45deg);
+    top: 20px;
+    left: -20px;
+  }
+}
