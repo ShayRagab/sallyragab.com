@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-version.css">
+    <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>sallyragab.com</title>
   </head>
@@ -26,7 +27,7 @@
       <!-- Main Menu -->
       <nav>
         <ul>
-          <a href="#home"><li>HOME</li></a>
+          <a href="#home"><li class="active">HOME</li></a>
           <a href="#about"><li>ABOUT</li></a>
           <a href="#projects"><li>PORTFOLIO</li></a>
           <a href="#blog"><li>BLOG</li></a>
@@ -38,51 +39,57 @@
     <!-- **ABOUT** -->
 
     <div id="about">
-      <!-- Title -->
+      <!-- Title GENERAL -->
       <div class="title">
         <h2>ABOUT</h2>
         <hr>
       </div>
       <!-- First section (4 skills) -->
       <div class="skills1">
-        <!-- Frist -->
-        <div class="about-child">
-          <div class="icon">
-            <i class=""></i>
+        <!-- First two -->
+        <div class="firsttwo">
+          <!-- Frist -->
+          <div class="about-child">
+            <div class="icon">
+              <i class="fa fa-tachometer"></i>
+            </div>
+            <div class="about-text">
+              <h3>Fast</h3>
+              <p>Fast load times and lag free interactoin. my highest priority.</p>
+            </div>
           </div>
-          <div class="about-text">
-            <h3>Fast</h3>
-            <p>Fast load times and lag free interactoin. my highest priority.</p>
-          </div>
-        </div>
-        <!-- Second -->
-        <div class="about-child">
-          <div class="icon">
-            <i class=""></i>
-          </div>
-          <div class="about-text">
-            <h3>Responsive</h3>
-            <p>My layouts will work on any device, big or small.</p>
-          </div>
-        </div>
-        <!-- Third -->
-        <div class="about-child">
-          <div class="icon">
-            <i class=""></i>
-          </div>
-          <div class="about-text">
-            <h3>Intuitive</h3>
-            <p>Strong preference for easy to use, intuitive UX/UI.</p>
+          <!-- Second -->
+          <div class="about-child">
+            <div class="icon">
+              <i class="fa fa-laptop"></i>
+            </div>
+            <div class="about-text">
+              <h3>Responsive</h3>
+              <p>My layouts will work on any device, big or small.</p>
+            </div>
           </div>
         </div>
-        <!-- Forth and Last -->
-        <div class="about-child">
-          <div class="icon">
-            <i class=""></i>
+        <!-- Second two -->
+        <div class="secondtwo">
+          <!-- Third -->
+          <div class="about-child">
+            <div class="icon">
+              <i class="fa fa-fire"></i>
+            </div>
+            <div class="about-text">
+              <h3>Intuitive</h3>
+              <p>Strong preference for easy to use, intuitive UX/UI.</p>
+            </div>
           </div>
-          <div class="about-text">
-            <h3>Dynamic</h3>
-            <p>Websites don't have to be static, I love making pages come to life.</p>
+          <!-- Forth and Last -->
+          <div class="about-child">
+            <div class="icon">
+              <i class="fa fa-rocket"></i>
+            </div>
+            <div class="about-text">
+              <h3>Dynamic</h3>
+              <p>Websites don't have to be static, I love making pages come to life.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -105,7 +112,7 @@
     <!-- **PORTFOLIO** -->
 
     <div id="projects">
-      <!-- Title -->
+      <!-- Title GENERAL -->
       <div class="title">
         <h2>PROJECTS</h2>
         <hr>
@@ -133,7 +140,7 @@
     <!-- **BLOG** -->
 
     <div id="blog">
-      <!-- Title -->
+      <!-- Title GENERAL -->
       <div class="title">
         <h2>BLOG</h2>
         <hr>
@@ -177,7 +184,7 @@
       <!-- **CONTACT** -->
 
       <div id="contact">
-        <!-- Title -->
+        <!-- Title GENERAL -->
         <div class="title">
           <h2>CONTACT</h2>
           <hr>
@@ -189,7 +196,7 @@
           <form class="reach" action="index.html" method="post">
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Enter email" required>
-            <textarea type="text" name="messege" placeholder="Your Message" rows="8" cols="80"></textarea>
+            <textarea type="text" name="messege" placeholder="Your Message" rows="8" cols="50"></textarea>
             <input class="button" type="submit" id="Submit" value="SUBMIT">
           </form>
         </div>
