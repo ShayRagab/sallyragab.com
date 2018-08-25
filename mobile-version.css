@@ -32,7 +32,10 @@
     height: 4px;
     background-color: #444649;
   }
-
+  body div.section {
+    padding: 70px 0 70px 0;
+    color: #616161;
+  }
   /* ==============
       HEADER
   ===============*/
@@ -41,7 +44,6 @@
     color: #fff;
     background-color: #1A192D;
     height: 23em;
-    margin-bottom: 5%;
   }
   header .seenfirst{
     height: 19.55em;
@@ -99,7 +101,7 @@
   ===============*/
 
   div#about  {
-    margin: 0 15px;
+    /* margin: 0 15px; */
   }
   div#about div.skills1 {
     display: flex;
@@ -154,5 +156,64 @@
     transform: rotate(45deg);
     top: 20px;
     left: -20px;
+  }
+  /* Skills2 [img + intro + percents] */
+  div#about div.skills2 {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  div#about div.skills2 div.left {
+    margin: 0 10px;
+    width: 100%;
+  }
+  div#about div.skills2 div.left img {
+    height: 200px;
+  }
+  div#about div.skills2 div.left h3 {
+    margin: 20px 0 15px 0;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #616161;
+  }
+  div#about div.skills2 div.left p {
+    color: #616161;
+    line-height: 11pt;
+    font-size: 8pt;
+  }
+  div#about div.skills2 div.left p a {
+    color: #009ADA;
+  }
+  /* ==========
+    PORTFOLIO
+  =========  */
+  div#projects {
+    background-color: #f5f5f5;
+    padding: 70px 0 70px 0;
+    color: #616161;
+    line-height: 11pt;
+    display: flex;
+    flex-direction: column;
+  }
+  div#projects nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div#projects nav ul a li {
+    /* margin: 0 20px; */
+    padding: 0 20px;
+    font-size: 6pt;
+    font-weight: 600;
+  }
+  div#projects nav ul a {
+    color: #616161;
+  }
+  div#projects div.examples img {
+    height: 240px;
+    max-width: 100%;
+    margin-top: 20px;
   }
 }
