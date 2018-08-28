@@ -132,10 +132,10 @@
     font-size: 40px;
     color: #fff;
     background-color: blue;
-    position: absolute;
+    /* position: absolute; */
     margin: auto;
   }
-  div#about div.skills1 div.about-child div.icon i:before {
+  /* div#about div.skills1 div.about-child div.icon i:before {
     content: "";
     background-color: red;
     width: 50px;
@@ -156,7 +156,7 @@
     transform: rotate(45deg);
     top: 20px;
     left: -20px;
-  }
+  } */
   /* Skills2 [img + intro + percents] */
   div#about div.skills2 {
     width: 100%;
@@ -203,10 +203,13 @@
     justify-content: center;
   }
   div#projects nav ul a li {
-    /* margin: 0 20px; */
-    padding: 0 20px;
+    padding: 5px 20px;
     font-size: 6pt;
     font-weight: 600;
+  }
+  div#projects nav ul a li.active {
+    background-color: #E31B6D;
+    color: #fff;
   }
   div#projects nav ul a {
     color: #616161;
@@ -214,6 +217,54 @@
   div#projects div.examples img {
     height: 240px;
     max-width: 100%;
-    margin-top: 20px;
+  }
+  div#projects div.examples img:first-child {
+    margin-top: 15px;
+  }
+
+  /* =========
+    BLOGS
+  ==========*/
+
+  div.blogs {
+    margin: 0 10px;
+  }
+  div.blogs div.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    /* font-size: 8pt; */
+    margin-bottom: 50px;
+  }
+  div.blogs div.blog img {
+    width: 100%;
+    height: 150px;
+    margin: 0 0 15px 0;
+  }
+  div.blogs div.blog h3 {
+    line-height: 14pt;
+    font-size: 12pt;
+    transition: color .3s ease-in-out;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  div.blogs div.blog p {
+    text-align: left;
+    font-size: 9pt;
+    line-height: 13pt;
+    max-height: 85px;
+  }
+  div.blogs div.blog span {
+    font-size: 7pt;
+    font-family: 'Open sans';
+  }
+  div.blogs div.blog hr {
+    height: 3px;
+    width: 25%;
+    background: #04C2C9;
+    margin: 10px 0px;
   }
 }
